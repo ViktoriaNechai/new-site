@@ -2,4 +2,44 @@ a {
     text-decoration: underline;
     text-decoration-style: wavy;
     text-decoration-color: rgb(188, 206, 26);
-   }
+    font-size: 18px;
+    font-weight: bold;
+}
+.layer {
+    background: #fc3; 
+    border: 2px solid black; 
+    padding: 20px; 
+}
+.title {
+    background: #000080; 
+    color: #ffe; 
+    padding: 7px;  
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    margin-top: 25px;
+}
+.content {
+    border: 1px solid #000080;  
+    background: #f0f0f0; 
+    padding: 7px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+.pull-left {
+    float: left; 
+    margin: 20px 10px 0 0;
+}
+.pull-right{
+    float: right;
+    width: 530px;
+    margin: 20px 0 0 10px;
+}
+.clearfix::after { 
+    content: '';
+    clear: both; 
+    display: block;
+}
+.picture{
+    float: right;
+}
+    
